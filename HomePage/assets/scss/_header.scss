@@ -1,0 +1,74 @@
+header {
+    padding: 15px 0;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+
+    nav {
+        .container {
+            .navbar-intro {
+                display: flex;
+                justify-content: space-between;
+
+                .logo {
+                    @include logo;
+                }
+
+                .navbar-right-side {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    ul {
+                        li {
+                            &:first-child {
+                                a {
+                                    padding: 10px 0 10px 30px;
+                                    font-family: $main-font;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    color: $main-color;
+                                    transition: 0.3s;
+                                }
+                            }
+
+                            a {
+                                padding: 10px 0 10px 30px;
+                                font-family: $main-font;
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: $link-color;
+                                transition: 0.3s;
+                            }
+                        }
+
+                        .dropdown {
+                            a {
+                                i {
+                                    font-size: 12px;
+                                    line-height: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    div {
+                        a {
+                            background: #4154f1;
+                            padding: 8px 24px;
+                            margin-left: 30px;
+                            border-radius: 4px;
+                            color: #fff;
+                            font-weight: 700;
+
+                        }
+                    }
+                }
+
+                .mobile-bars {
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+#faq {
+    padding: 5% 0;
+
+    .container {
+        .faq-wrapper {
+            @include section-content;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+#scroll-up{
+    .back-to-top {
+
+        a {
+            position: fixed;
+            right: 15px;
+            bottom: 15px;
+            height: 40px;
+            border-radius: 4px;
+            padding: 0.7rem;
+            background-color: $main-color;
+    
+            i {
+                font-size: 24px;
+                color: #fff;
+                line-height: 0;
+    
+            }
+        }
+    }
+}

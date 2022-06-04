@@ -1,0 +1,3602 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 15px 0;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header nav .container .navbar-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .container .navbar-intro .logo a {
+  line-height: 0;
+  text-decoration: none;
+}
+
+header nav .container .navbar-intro .logo a img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+header nav .container .navbar-intro .logo a span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+}
+
+header nav .container .navbar-intro .navbar-right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .container .navbar-intro .navbar-right-side ul li:first-child a {
+  padding: 10px 0 10px 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4154f1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header nav .container .navbar-intro .navbar-right-side ul li a {
+  padding: 10px 0 10px 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #013289;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header nav .container .navbar-intro .navbar-right-side ul .dropdown a i {
+  font-size: 12px;
+  line-height: 0;
+}
+
+header nav .container .navbar-intro .navbar-right-side div a {
+  background: #4154f1;
+  padding: 8px 24px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+}
+
+header nav .container .navbar-intro .mobile-bars {
+  display: none;
+}
+
+#intro {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+
+#intro .container .intro-wrapper .intro-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 8%;
+}
+
+#intro .container .intro-wrapper .intro-content h1 {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #012970;
+}
+
+#intro .container .intro-wrapper .intro-content h2 {
+  font-family: "Nunito", sans-serif;
+  color: #444444;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+}
+
+#intro .container .intro-wrapper .intro-content div a {
+  margin-top: 30px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  color: #fff;
+  background: #4154f1;
+  -webkit-box-shadow: 0px 5px 25px rgba(33, 62, 196, 0.3);
+          box-shadow: 0px 5px 25px rgba(33, 62, 196, 0.3);
+}
+
+#about .container .about-content {
+  padding: 13.5% 0;
+}
+
+#about .container .about-content .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+
+#about .container .about-content .content h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+#about .container .about-content .content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+
+#about .container .about-content .content div a {
+  line-height: 0;
+  padding: 17px 32px;
+  border-radius: 4px;
+  color: #fff;
+  background: #4154f1;
+  -webkit-box-shadow: 0px 5px 25px rgba(33, 62, 196, 0.3);
+          box-shadow: 0px 5px 25px rgba(33, 62, 196, 0.3);
+}
+
+#about .container .about-img {
+  padding: 7% 2% 5% 0;
+}
+
+#about .container .about-img img {
+  width: 100%;
+}
+
+#values .container .values-wrapper {
+  padding: 0% 0% 5% 0;
+}
+
+#values .container .values-wrapper .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4%;
+}
+
+#values .container .values-wrapper .content h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+#values .container .values-wrapper .content p {
+  font-family: "Nunito", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #012970;
+}
+
+#values .container .values-wrapper .row .box {
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 5px #b8b8b8;
+          box-shadow: 0px 0px 5px #b8b8b8;
+  text-align: center;
+  height: 100%;
+}
+
+#values .container .values-wrapper .row .box .box-img img {
+  width: 100%;
+}
+
+#values .container .values-wrapper .row .box h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+#values .container .values-wrapper .row .box p {
+  font-family: "Nunito", sans-serif;
+}
+
+#counts {
+  padding: 6% 0;
+}
+
+#counts .count-box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+#counts .count-box1 i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #4154f1;
+}
+
+#counts .count-box1 div p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+#counts .count-box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+#counts .count-box2 i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #ee6c20;
+}
+
+#counts .count-box2 div p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+#counts .count-box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+#counts .count-box3 i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #15be56;
+}
+
+#counts .count-box3 div p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+#counts .count-box4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+#counts .count-box4 i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #bb0852;
+}
+
+#counts .count-box4 div p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+#features .container .first-feature-wrapper .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4%;
+}
+
+#features .container .first-feature-wrapper .content h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+#features .container .first-feature-wrapper .content p {
+  font-family: "Nunito", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #012970;
+}
+
+#features .container .first-feature-wrapper .row .box-img img {
+  width: 100%;
+}
+
+#features .container .first-feature-wrapper .row .feature-boxs {
+  padding: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#features .container .first-feature-wrapper .row .feature-boxs .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2%;
+  height: 25%;
+  width: 45%;
+  padding: 24px 17px;
+  -webkit-box-shadow: 0px 0 30px rgba(117, 120, 123, 0.08);
+          box-shadow: 0px 0 30px rgba(117, 120, 123, 0.08);
+}
+
+#features .container .first-feature-wrapper .row .feature-boxs .box i {
+  line-height: 0;
+  background: #ecf3ff;
+  padding: 15px 3px;
+  margin-right: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+}
+
+#features .container .first-feature-wrapper .row .feature-boxs .box h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #012970;
+  font-weight: 700;
+  margin: 0;
+}
+
+#features .container .second-feature-wrapper {
+  padding: 8% 0 4% 0;
+}
+
+#features .container .second-feature-wrapper .title {
+  padding: 3% 0;
+}
+
+#features .container .second-feature-wrapper .title h3 {
+  font-family: "Nunito", sans-serif;
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#features .container .second-feature-wrapper .content .row .col-4 .content-image img {
+  width: 100%;
+}
+
+#features .container .second-feature-wrapper .content .row .col-8 {
+  padding: 3% 0;
+}
+
+#features .container .second-feature-wrapper .content .row .col-8 .content-info .row .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2%;
+}
+
+#features .container .second-feature-wrapper .content .row .col-8 .content-info .row .content-box i {
+  font-size: 34px;
+  color: #0245bc;
+  margin-right: 15px;
+}
+
+#features .container .second-feature-wrapper .content .row .col-8 .content-info .row .content-box div h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #012970;
+}
+
+#features .container .second-feature-wrapper .content .row .col-8 .content-info .row .content-box div p {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  color: #848484;
+}
+
+#services .container .service-wrapper .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4%;
+}
+
+#services .container .service-wrapper .content h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+#services .container .service-wrapper .content p {
+  font-family: "Nunito", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #012970;
+}
+
+#services .container .service-wrapper .row {
+  padding: 2% 0;
+}
+
+#services .container .service-wrapper .row .service-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#services .container .service-wrapper .row .service-box .box1 {
+  border-bottom: 3px solid #2db6fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10% 9% 14%;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  margin-top: 5%;
+}
+
+#services .container .service-wrapper .row .service-box .box1 div i {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  line-height: 0;
+  color: #2db6fa;
+  background: #dbf3fe;
+}
+
+#services .container .service-wrapper .row .service-box .box1 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #444444;
+  font-weight: 700;
+}
+
+#services .container .service-wrapper .row .service-box .box1 p {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+#services .container .service-wrapper .row .service-box .box1 a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+#services .container .service-wrapper .row .service-box .box1 a span {
+  color: #2db6fa;
+}
+
+#services .container .service-wrapper .row .service-box .box1 a i {
+  color: #2db6fa;
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#services .container .service-wrapper .row .service-box .box1:hover {
+  background-color: #2db6fa;
+}
+
+#services .container .service-wrapper .row .service-box .box1:hover div i {
+  color: #2db6fa;
+  background: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box1:hover h3 {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box1:hover p {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box1:hover a span {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box1:hover a i {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box2 {
+  border-bottom: 3px solid #f68c09;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10% 9% 14%;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  margin-top: 5%;
+}
+
+#services .container .service-wrapper .row .service-box .box2 div i {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  line-height: 0;
+  color: #f68c09;
+  background: #fde3c4;
+}
+
+#services .container .service-wrapper .row .service-box .box2 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #444444;
+  font-weight: 700;
+}
+
+#services .container .service-wrapper .row .service-box .box2 p {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+#services .container .service-wrapper .row .service-box .box2 a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+#services .container .service-wrapper .row .service-box .box2 a span {
+  color: #f68c09;
+}
+
+#services .container .service-wrapper .row .service-box .box2 a i {
+  color: #f68c09;
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#services .container .service-wrapper .row .service-box .box2:hover {
+  background-color: #f68c09;
+}
+
+#services .container .service-wrapper .row .service-box .box2:hover div i {
+  color: #f68c09;
+  background: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box2:hover h3 {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box2:hover p {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box2:hover a span {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box2:hover a i {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box3 {
+  border-bottom: 3px solid #08da4e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10% 9% 14%;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  margin-top: 5%;
+}
+
+#services .container .service-wrapper .row .service-box .box3 div i {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  line-height: 0;
+  color: #08da4e;
+  background: #cffddf;
+}
+
+#services .container .service-wrapper .row .service-box .box3 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #444444;
+  font-weight: 700;
+}
+
+#services .container .service-wrapper .row .service-box .box3 p {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+#services .container .service-wrapper .row .service-box .box3 a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+#services .container .service-wrapper .row .service-box .box3 a span {
+  color: #08da4e;
+}
+
+#services .container .service-wrapper .row .service-box .box3 a i {
+  color: #08da4e;
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#services .container .service-wrapper .row .service-box .box3:hover {
+  background-color: #08da4e;
+}
+
+#services .container .service-wrapper .row .service-box .box3:hover div i {
+  color: #08da4e;
+  background: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box3:hover h3 {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box3:hover p {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box3:hover a span {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box3:hover a i {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box4 {
+  border-bottom: 3px solid #e9222c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10% 9% 14%;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  margin-top: 5%;
+}
+
+#services .container .service-wrapper .row .service-box .box4 div i {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  line-height: 0;
+  color: #e9222c;
+  background: #fef7f8;
+}
+
+#services .container .service-wrapper .row .service-box .box4 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #444444;
+  font-weight: 700;
+}
+
+#services .container .service-wrapper .row .service-box .box4 p {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+#services .container .service-wrapper .row .service-box .box4 a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+#services .container .service-wrapper .row .service-box .box4 a span {
+  color: #e9222c;
+}
+
+#services .container .service-wrapper .row .service-box .box4 a i {
+  color: #e9222c;
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#services .container .service-wrapper .row .service-box .box4:hover {
+  background-color: #e9222c;
+}
+
+#services .container .service-wrapper .row .service-box .box4:hover div i {
+  color: #e9222c;
+  background: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box4:hover h3 {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box4:hover p {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box4:hover a span {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box4:hover a i {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box5 {
+  border-bottom: 3px solid #b50edf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10% 9% 14%;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  margin-top: 5%;
+}
+
+#services .container .service-wrapper .row .service-box .box5 div i {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  line-height: 0;
+  color: #b50edf;
+  background: #f8e4fd;
+}
+
+#services .container .service-wrapper .row .service-box .box5 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #444444;
+  font-weight: 700;
+}
+
+#services .container .service-wrapper .row .service-box .box5 p {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+#services .container .service-wrapper .row .service-box .box5 a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+#services .container .service-wrapper .row .service-box .box5 a span {
+  color: #b50edf;
+}
+
+#services .container .service-wrapper .row .service-box .box5 a i {
+  color: #b50edf;
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#services .container .service-wrapper .row .service-box .box5:hover {
+  background-color: #b50edf;
+}
+
+#services .container .service-wrapper .row .service-box .box5:hover div i {
+  color: #b50edf;
+  background: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box5:hover h3 {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box5:hover p {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box5:hover a span {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box5:hover a i {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box6 {
+  border-bottom: 3px solid #f51f9c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10% 9% 14%;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  margin-top: 5%;
+}
+
+#services .container .service-wrapper .row .service-box .box6 div i {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  line-height: 0;
+  color: #f51f9c;
+  background: #feecf7;
+}
+
+#services .container .service-wrapper .row .service-box .box6 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #444444;
+  font-weight: 700;
+}
+
+#services .container .service-wrapper .row .service-box .box6 p {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+#services .container .service-wrapper .row .service-box .box6 a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+#services .container .service-wrapper .row .service-box .box6 a span {
+  color: #f51f9c;
+}
+
+#services .container .service-wrapper .row .service-box .box6 a i {
+  color: #f51f9c;
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#services .container .service-wrapper .row .service-box .box6:hover {
+  background-color: #f51f9c;
+}
+
+#services .container .service-wrapper .row .service-box .box6:hover div i {
+  color: #f51f9c;
+  background: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box6:hover h3 {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box6:hover p {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box6:hover a span {
+  color: #fff;
+}
+
+#services .container .service-wrapper .row .service-box .box6:hover a i {
+  color: #fff;
+}
+
+#pricing .container .pricing-wrapper .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4%;
+}
+
+#pricing .container .pricing-wrapper .content h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+#pricing .container .pricing-wrapper .content p {
+  font-family: "Nunito", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #012970;
+}
+
+#pricing .container .row .box1 {
+  width: 23%;
+  margin: 0 1%;
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+#pricing .container .row .box1 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #07d5c0;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#pricing .container .row .box1 .price {
+  font-size: 36px;
+  color: #444444;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+#pricing .container .row .box1 .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+#pricing .container .row .box1 .price span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#pricing .container .row .box1 .box-img {
+  padding: 10% 17%;
+}
+
+#pricing .container .row .box1 .box-img img {
+  width: 100%;
+}
+
+#pricing .container .row .box1 ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+#pricing .container .row .box1 ul li {
+  padding-bottom: 10px;
+}
+
+#pricing .container .row .box1 a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #4154f1;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #4154f1;
+  text-decoration: none;
+}
+
+#pricing .container .row .box2 {
+  width: 23%;
+  margin: 0 1%;
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+#pricing .container .row .box2 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #65c600;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#pricing .container .row .box2 .price {
+  font-size: 36px;
+  color: #444444;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+#pricing .container .row .box2 .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+#pricing .container .row .box2 .price span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#pricing .container .row .box2 .box-img {
+  padding: 10% 17%;
+}
+
+#pricing .container .row .box2 .box-img img {
+  width: 100%;
+}
+
+#pricing .container .row .box2 ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+#pricing .container .row .box2 ul li {
+  padding-bottom: 10px;
+}
+
+#pricing .container .row .box2 a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #4154f1;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #4154f1;
+  text-decoration: none;
+}
+
+#pricing .container .row .box2 .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #4154f1;
+  color: #fff;
+}
+
+#pricing .container .row .box3 {
+  width: 23%;
+  margin: 0 1%;
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+#pricing .container .row .box3 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #ff901c;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#pricing .container .row .box3 .price {
+  font-size: 36px;
+  color: #444444;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+#pricing .container .row .box3 .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+#pricing .container .row .box3 .price span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#pricing .container .row .box3 .box-img {
+  padding: 10% 17%;
+}
+
+#pricing .container .row .box3 .box-img img {
+  width: 100%;
+}
+
+#pricing .container .row .box3 ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+#pricing .container .row .box3 ul li {
+  padding-bottom: 10px;
+}
+
+#pricing .container .row .box3 a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #4154f1;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #4154f1;
+  text-decoration: none;
+}
+
+#pricing .container .row .box4 {
+  width: 23%;
+  margin: 0 1%;
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+#pricing .container .row .box4 h3 {
+  font-family: "Nunito", sans-serif;
+  color: #ff0071;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#pricing .container .row .box4 .price {
+  font-size: 36px;
+  color: #444444;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+#pricing .container .row .box4 .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+#pricing .container .row .box4 .price span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#pricing .container .row .box4 .box-img {
+  padding: 10% 17%;
+}
+
+#pricing .container .row .box4 .box-img img {
+  width: 100%;
+}
+
+#pricing .container .row .box4 ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+#pricing .container .row .box4 ul li {
+  padding-bottom: 10px;
+}
+
+#pricing .container .row .box4 a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #4154f1;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #4154f1;
+  text-decoration: none;
+}
+
+#faq {
+  padding: 5% 0;
+}
+
+#faq .container .faq-wrapper .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4%;
+}
+
+#faq .container .faq-wrapper .content h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+#faq .container .faq-wrapper .content p {
+  font-family: "Nunito", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #012970;
+}
+
+#blog {
+  padding: 0 0 5% 0;
+}
+
+#blog .container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4%;
+}
+
+#blog .container .content h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+#blog .container .content p {
+  font-family: "Nunito", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #012970;
+}
+
+#blog .row .col-4 .post-box {
+  -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+          box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  height: 100%;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#blog .row .col-4 .post-box .post-img img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#blog .row .col-4 .post-box .post-content {
+  padding: 5%;
+}
+
+#blog .row .col-4 .post-box .post-content .post-date {
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(1, 41, 112, 0.6);
+  padding: 0% 1%;
+}
+
+#blog .row .col-4 .post-box .post-content h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding: 1% 1%;
+}
+
+#blog .row .col-4 .post-box .post-content a {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 0px;
+  text-decoration: none;
+  padding: 0% 1%;
+}
+
+#blog .row .col-4 .post-box .post-content a span {
+  color: #0d6efd;
+}
+
+#blog .row .col-4 .post-box .post-content a i {
+  color: #0d6efd;
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+#contact .container .contact-wrapper .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4%;
+}
+
+#contact .container .contact-wrapper .content h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+#contact .container .contact-wrapper .content p {
+  font-family: "Nunito", sans-serif;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #012970;
+}
+
+#contact .container .row .col-6 .row .info-box {
+  color: #444444;
+  background: #fafbff;
+  padding: 30px;
+  margin: 2%;
+  width: 46%;
+}
+
+#contact .container .row .col-6 .row .info-box i {
+  font-size: 38px;
+  line-height: 0;
+  color: #4154f1;
+}
+
+#contact .container .row .col-6 .row .info-box h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #012970;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+#contact .container .row .col-6 .row .info-box p {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#contact .container .row .col-6 .row form {
+  background: #fafbff;
+  padding: 30px;
+  height: 100%;
+  margin: 2%;
+}
+
+#contact .container .row .col-6 .row form .row .col-12 button {
+  background: #4154f1;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+footer {
+  background: #f6f9ff;
+}
+
+footer .footer-newslatter {
+  padding: 50px 0;
+  border-top: 1px solid #e1ecff;
+}
+
+footer .footer-newslatter .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-newslatter .container .content h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+}
+
+footer .footer-newslatter .container .content p {
+  font-family: "Nunito", sans-serif;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0 8%;
+}
+
+footer .footer-newslatter .container div {
+  width: 50%;
+}
+
+footer .footer-newslatter .container div form {
+  margin-top: 20px;
+  background: #fff;
+  padding: 3px 1px 3px 9px;
+  border-radius: 4px;
+  border: 1px solid #e1ecff;
+}
+
+footer .footer-newslatter .container div form .email {
+  border: 0;
+  padding: 1% 25%;
+}
+
+footer .footer-newslatter .container div form .submit {
+  font-size: 16px;
+  padding: 7px 30px;
+  background: #4154f1;
+  color: #fff;
+  border-radius: 4px;
+}
+
+footer .footer-top {
+  background: white url(../images/footer-bg.png) no-repeat right top;
+  background-size: contain;
+  border-top: 1px solid #e1ecff;
+  border-bottom: 1px solid #e1ecff;
+  padding: 60px 0 40px 0;
+}
+
+footer .footer-top .container .row .col-5 a {
+  line-height: 0;
+  text-decoration: none;
+}
+
+footer .footer-top .container .row .col-5 a img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+footer .footer-top .container .row .col-5 a span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+}
+
+footer .footer-top .container .row .col-5 p {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 3%;
+}
+
+footer .footer-top .container .row .col-5 .social-media-links {
+  margin-top: 1%;
+}
+
+footer .footer-top .container .row .col-5 .social-media-links a {
+  font-size: 20px;
+  color: rgba(1, 41, 112, 0.5);
+  line-height: 0;
+  margin-right: 10px;
+}
+
+footer .footer-top .container .row .col-2 h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #012970;
+  text-transform: uppercase;
+}
+
+footer .footer-top .container .row .col-2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-top .container .row .col-2 ul li {
+  padding: 5px 0;
+}
+
+footer .footer-top .container .row .col-2 ul li i {
+  padding-right: 2px;
+  color: #d0d4fc;
+  font-size: 12px;
+}
+
+footer .footer-top .container .row .col-2 ul li a {
+  color: #013289;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+footer .footer-top .container .row .col-3 h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #012970;
+  text-transform: uppercase;
+}
+
+footer .footer-top .container .row .col-3 p {
+  font-family: "Nunito", sans-serif;
+  line-height: 26px;
+}
+
+footer .footer-bottom {
+  padding: 2% 0 2% 0;
+}
+
+footer .footer-bottom .container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-bottom .container .content .first-title {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #012970;
+}
+
+footer .footer-bottom .container .content .second-title {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 0;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #012970;
+}
+
+footer .footer-bottom .container .content .second-title a {
+  text-decoration: none;
+}
+
+#scroll-up .back-to-top a {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0.7rem;
+  background-color: #4154f1;
+}
+
+#scroll-up .back-to-top a i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  header {
+    max-width: 100%;
+    padding: 10px 0;
+  }
+  header nav .container {
+    max-width: 100%;
+  }
+  header nav .container .navbar-intro .logo a {
+    line-height: 0;
+    text-decoration: none;
+  }
+  header nav .container .navbar-intro .logo a img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  header nav .container .navbar-intro .logo a span {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+  }
+  header nav .container .navbar-intro .navbar-right-side {
+    display: none;
+  }
+  header nav .container .navbar-intro .mobile-bars {
+    display: block;
+    padding: 1%;
+  }
+  header nav .container .navbar-intro .mobile-bars i {
+    font-size: 28px;
+    line-height: 0;
+  }
+  #intro {
+    width: 100%;
+    height: 150vh;
+    padding: 15% 0;
+  }
+  #intro .container {
+    max-width: 720px;
+  }
+  #intro .container .intro-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #intro .container .intro-wrapper .row {
+    margin: 0 0 0 0;
+  }
+  #intro .container .intro-wrapper .row .intro-content {
+    width: 100%;
+    max-width: 100%;
+  }
+  #intro .container .intro-wrapper .row .intro-img {
+    max-width: 100%;
+    padding: 9% 10%;
+  }
+  #about {
+    width: 100%;
+  }
+  #about .container {
+    max-width: 100%;
+  }
+  #about .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .container .row .about-content {
+    padding: 6% 5% 0 5%;
+    width: 80%;
+  }
+  #about .container .row .about-img {
+    padding: 0% 5% 2% 5%;
+    width: 80%;
+  }
+  #about .container .row .about-img img {
+    width: 100%;
+  }
+  #values .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #values .container .values-wrapper {
+    padding: 0% 0% 5% 0;
+  }
+  #values .container .values-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4%;
+  }
+  #values .container .values-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #values .container .values-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #counts {
+    padding: 8% 0;
+  }
+  #counts .container .row .col-3 {
+    width: 50%;
+    margin-top: 3%;
+  }
+  #counts .container .row .col-3 .count-box1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  }
+  #counts .container .row .col-3 .count-box1 i {
+    font-size: 42px;
+    line-height: 0;
+    margin-right: 20px;
+    color: #4154f1;
+  }
+  #counts .container .row .col-3 .count-box1 div p {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+  }
+  #counts .container .row .col-3 .count-box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  }
+  #counts .container .row .col-3 .count-box2 i {
+    font-size: 42px;
+    line-height: 0;
+    margin-right: 20px;
+    color: #ee6c20;
+  }
+  #counts .container .row .col-3 .count-box2 div p {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+  }
+  #counts .container .row .col-3 .count-box3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  }
+  #counts .container .row .col-3 .count-box3 i {
+    font-size: 42px;
+    line-height: 0;
+    margin-right: 20px;
+    color: #15be56;
+  }
+  #counts .container .row .col-3 .count-box3 div p {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+  }
+  #counts .container .row .col-3 .count-box4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  }
+  #counts .container .row .col-3 .count-box4 i {
+    font-size: 42px;
+    line-height: 0;
+    margin-right: 20px;
+    color: #bb0852;
+  }
+  #counts .container .row .col-3 .count-box4 div p {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+  }
+  #features .container .first-feature-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4%;
+  }
+  #features .container .first-feature-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #features .container .first-feature-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #features .container .first-feature-wrapper .row .col-6 {
+    width: 100%;
+  }
+  #features .container .second-feature-wrapper .content .row .col-4 {
+    width: 100%;
+  }
+  #features .container .second-feature-wrapper .content .row .col-8 {
+    padding: 3% 0;
+    width: 100%;
+  }
+  #services .container .service-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4%;
+  }
+  #services .container .service-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #services .container .service-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #services .container .service-wrapper .row {
+    padding: 2% 0;
+  }
+  #services .container .service-wrapper .row .service-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+  }
+  #services .container .service-wrapper .row .service-box .box1 {
+    border-bottom: 3px solid #2db6fa;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10% 9% 14%;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    margin-top: 5%;
+  }
+  #services .container .service-wrapper .row .service-box .box1 div i {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    line-height: 0;
+    color: #2db6fa;
+    background: #dbf3fe;
+  }
+  #services .container .service-wrapper .row .service-box .box1 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+  }
+  #services .container .service-wrapper .row .service-box .box1 p {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+  }
+  #services .container .service-wrapper .row .service-box .box1 a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+    text-decoration: none;
+  }
+  #services .container .service-wrapper .row .service-box .box1 a span {
+    color: #2db6fa;
+  }
+  #services .container .service-wrapper .row .service-box .box1 a i {
+    color: #2db6fa;
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  #services .container .service-wrapper .row .service-box .box1:hover {
+    background-color: #2db6fa;
+  }
+  #services .container .service-wrapper .row .service-box .box1:hover div i {
+    color: #2db6fa;
+    background: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box1:hover h3 {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box1:hover p {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box1:hover a span {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box1:hover a i {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box2 {
+    border-bottom: 3px solid #f68c09;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10% 9% 14%;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    margin-top: 5%;
+  }
+  #services .container .service-wrapper .row .service-box .box2 div i {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    line-height: 0;
+    color: #f68c09;
+    background: #fde3c4;
+  }
+  #services .container .service-wrapper .row .service-box .box2 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+  }
+  #services .container .service-wrapper .row .service-box .box2 p {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+  }
+  #services .container .service-wrapper .row .service-box .box2 a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+    text-decoration: none;
+  }
+  #services .container .service-wrapper .row .service-box .box2 a span {
+    color: #f68c09;
+  }
+  #services .container .service-wrapper .row .service-box .box2 a i {
+    color: #f68c09;
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  #services .container .service-wrapper .row .service-box .box2:hover {
+    background-color: #f68c09;
+  }
+  #services .container .service-wrapper .row .service-box .box2:hover div i {
+    color: #f68c09;
+    background: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box2:hover h3 {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box2:hover p {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box2:hover a span {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box2:hover a i {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box3 {
+    border-bottom: 3px solid #08da4e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10% 9% 14%;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    margin-top: 5%;
+  }
+  #services .container .service-wrapper .row .service-box .box3 div i {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    line-height: 0;
+    color: #08da4e;
+    background: #cffddf;
+  }
+  #services .container .service-wrapper .row .service-box .box3 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+  }
+  #services .container .service-wrapper .row .service-box .box3 p {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+  }
+  #services .container .service-wrapper .row .service-box .box3 a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+    text-decoration: none;
+  }
+  #services .container .service-wrapper .row .service-box .box3 a span {
+    color: #08da4e;
+  }
+  #services .container .service-wrapper .row .service-box .box3 a i {
+    color: #08da4e;
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  #services .container .service-wrapper .row .service-box .box3:hover {
+    background-color: #08da4e;
+  }
+  #services .container .service-wrapper .row .service-box .box3:hover div i {
+    color: #08da4e;
+    background: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box3:hover h3 {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box3:hover p {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box3:hover a span {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box3:hover a i {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box4 {
+    border-bottom: 3px solid #e9222c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10% 9% 14%;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    margin-top: 5%;
+  }
+  #services .container .service-wrapper .row .service-box .box4 div i {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    line-height: 0;
+    color: #e9222c;
+    background: #fef7f8;
+  }
+  #services .container .service-wrapper .row .service-box .box4 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+  }
+  #services .container .service-wrapper .row .service-box .box4 p {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+  }
+  #services .container .service-wrapper .row .service-box .box4 a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+    text-decoration: none;
+  }
+  #services .container .service-wrapper .row .service-box .box4 a span {
+    color: #e9222c;
+  }
+  #services .container .service-wrapper .row .service-box .box4 a i {
+    color: #e9222c;
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  #services .container .service-wrapper .row .service-box .box4:hover {
+    background-color: #e9222c;
+  }
+  #services .container .service-wrapper .row .service-box .box4:hover div i {
+    color: #e9222c;
+    background: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box4:hover h3 {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box4:hover p {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box4:hover a span {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box4:hover a i {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box5 {
+    border-bottom: 3px solid #b50edf;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10% 9% 14%;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    margin-top: 5%;
+  }
+  #services .container .service-wrapper .row .service-box .box5 div i {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    line-height: 0;
+    color: #b50edf;
+    background: #f8e4fd;
+  }
+  #services .container .service-wrapper .row .service-box .box5 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+  }
+  #services .container .service-wrapper .row .service-box .box5 p {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+  }
+  #services .container .service-wrapper .row .service-box .box5 a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+    text-decoration: none;
+  }
+  #services .container .service-wrapper .row .service-box .box5 a span {
+    color: #b50edf;
+  }
+  #services .container .service-wrapper .row .service-box .box5 a i {
+    color: #b50edf;
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  #services .container .service-wrapper .row .service-box .box5:hover {
+    background-color: #b50edf;
+  }
+  #services .container .service-wrapper .row .service-box .box5:hover div i {
+    color: #b50edf;
+    background: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box5:hover h3 {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box5:hover p {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box5:hover a span {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box5:hover a i {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box6 {
+    border-bottom: 3px solid #f51f9c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10% 9% 14%;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    margin-top: 5%;
+  }
+  #services .container .service-wrapper .row .service-box .box6 div i {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    line-height: 0;
+    color: #f51f9c;
+    background: #feecf7;
+  }
+  #services .container .service-wrapper .row .service-box .box6 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+  }
+  #services .container .service-wrapper .row .service-box .box6 p {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+  }
+  #services .container .service-wrapper .row .service-box .box6 a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+    text-decoration: none;
+  }
+  #services .container .service-wrapper .row .service-box .box6 a span {
+    color: #f51f9c;
+  }
+  #services .container .service-wrapper .row .service-box .box6 a i {
+    color: #f51f9c;
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  #services .container .service-wrapper .row .service-box .box6:hover {
+    background-color: #f51f9c;
+  }
+  #services .container .service-wrapper .row .service-box .box6:hover div i {
+    color: #f51f9c;
+    background: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box6:hover h3 {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box6:hover p {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box6:hover a span {
+    color: #fff;
+  }
+  #services .container .service-wrapper .row .service-box .box6:hover a i {
+    color: #fff;
+  }
+  #pricing {
+    margin-top: 5%;
+  }
+  #pricing .container .pricing-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4%;
+  }
+  #pricing .container .pricing-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #pricing .container .pricing-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 800;
+    color: #012970;
+  }
+  #pricing .container .row .box1 {
+    width: 48%;
+    margin: 0 0 2% 2%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  #pricing .container .row .box1 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #07d5c0;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #pricing .container .row .box1 .price {
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  #pricing .container .row .box1 .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  #pricing .container .row .box1 .price span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #pricing .container .row .box1 .box-img {
+    padding: 10% 17%;
+  }
+  #pricing .container .row .box1 .box-img img {
+    width: 100%;
+  }
+  #pricing .container .row .box1 ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  #pricing .container .row .box1 ul li {
+    padding-bottom: 10px;
+  }
+  #pricing .container .row .box1 a {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #4154f1;
+    text-decoration: none;
+  }
+  #pricing .container .row .box2 {
+    width: 48%;
+    margin: 0 0 2% 2%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  #pricing .container .row .box2 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #65c600;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #pricing .container .row .box2 .price {
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  #pricing .container .row .box2 .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  #pricing .container .row .box2 .price span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #pricing .container .row .box2 .box-img {
+    padding: 10% 17%;
+  }
+  #pricing .container .row .box2 .box-img img {
+    width: 100%;
+  }
+  #pricing .container .row .box2 ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  #pricing .container .row .box2 ul li {
+    padding-bottom: 10px;
+  }
+  #pricing .container .row .box2 a {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #4154f1;
+    text-decoration: none;
+  }
+  #pricing .container .row .box3 {
+    width: 48%;
+    margin: 0 0 2% 2%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  #pricing .container .row .box3 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #ff901c;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #pricing .container .row .box3 .price {
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  #pricing .container .row .box3 .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  #pricing .container .row .box3 .price span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #pricing .container .row .box3 .box-img {
+    padding: 10% 17%;
+  }
+  #pricing .container .row .box3 .box-img img {
+    width: 100%;
+  }
+  #pricing .container .row .box3 ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  #pricing .container .row .box3 ul li {
+    padding-bottom: 10px;
+  }
+  #pricing .container .row .box3 a {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #4154f1;
+    text-decoration: none;
+  }
+  #pricing .container .row .box4 {
+    width: 48%;
+    margin: 0 0 2% 2%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  #pricing .container .row .box4 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #ff0071;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #pricing .container .row .box4 .price {
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  #pricing .container .row .box4 .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  #pricing .container .row .box4 .price span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #pricing .container .row .box4 .box-img {
+    padding: 10% 17%;
+  }
+  #pricing .container .row .box4 .box-img img {
+    width: 100%;
+  }
+  #pricing .container .row .box4 ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  #pricing .container .row .box4 ul li {
+    padding-bottom: 10px;
+  }
+  #pricing .container .row .box4 a {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #4154f1;
+    text-decoration: none;
+  }
+  #faq {
+    padding: 5% 0;
+  }
+  #faq .container .faq-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4%;
+  }
+  #faq .container .faq-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #faq .container .faq-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 800;
+    color: #012970;
+  }
+  #faq .container .row > div {
+    width: 100%;
+  }
+  #blog .row .col-4 {
+    width: 100%;
+  }
+  #contact .container .row .col-6 {
+    width: 100%;
+  }
+  footer .footer-newslatter .container {
+    max-width: 100%;
+    padding: 0 17%;
+  }
+  footer .footer-newslatter .container .content {
+    width: 100%;
+  }
+  footer .footer-newslatter .container div {
+    width: 100%;
+  }
+  footer .footer-top .container .row .col-5 {
+    width: 100%;
+  }
+  footer .footer-top .container .row .col-5 a {
+    line-height: 0;
+    text-decoration: none;
+  }
+  footer .footer-top .container .row .col-5 a img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  footer .footer-top .container .row .col-5 a span {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+  }
+  footer .footer-top .container .row .col-2 {
+    width: 50%;
+    margin-top: 3%;
+  }
+  footer .footer-top .container .row .col-3 {
+    width: 50%;
+    margin-top: 7%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #intro {
+    width: 100%;
+    height: 150vh;
+    padding: 3% 0;
+  }
+  #intro .container {
+    max-width: 720px;
+  }
+  #intro .container .intro-wrapper .row .intro-content {
+    text-align: center;
+    padding: 1% 10%;
+  }
+  #intro .container .intro-wrapper .row .intro-content h1 {
+    font-size: 32px;
+  }
+  #intro .container .intro-wrapper .row .intro-content h2 {
+    font-size: 26px;
+  }
+  #values {
+    margin-top: 8%;
+  }
+  #values .container .values-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+  }
+  #values .container .values-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #values .container .values-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #counts {
+    margin-top: 5%;
+  }
+  #counts .container .row .col-3 {
+    width: 100%;
+    margin-top: 5%;
+  }
+  #features {
+    margin-top: 8%;
+  }
+  #features .container .first-feature-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+  }
+  #features .container .first-feature-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #features .container .first-feature-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #features .container .second-feature-wrapper .title h3 {
+    font-size: 28px;
+  }
+  #features .container .second-feature-wrapper .content .row .col-8 .content-info .row .content-box {
+    width: 100%;
+    padding: 2% 8%;
+  }
+  #services {
+    margin-top: 5%;
+  }
+  #services .container .service-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+  }
+  #services .container .service-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #services .container .service-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #services .container .service-wrapper .row .service-box {
+    width: 100%;
+  }
+  #pricing {
+    margin-top: 10%;
+  }
+  #pricing .container .pricing-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+  }
+  #pricing .container .pricing-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #pricing .container .pricing-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #pricing .container .row .box1 {
+    width: 100%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  #pricing .container .row .box1 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #07d5c0;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #pricing .container .row .box1 .price {
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  #pricing .container .row .box1 .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  #pricing .container .row .box1 .price span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #pricing .container .row .box1 .box-img {
+    padding: 10% 17%;
+  }
+  #pricing .container .row .box1 .box-img img {
+    width: 100%;
+  }
+  #pricing .container .row .box1 ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  #pricing .container .row .box1 ul li {
+    padding-bottom: 10px;
+  }
+  #pricing .container .row .box1 a {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #4154f1;
+    text-decoration: none;
+  }
+  #pricing .container .row .box2 {
+    width: 100%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  #pricing .container .row .box2 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #65c600;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #pricing .container .row .box2 .price {
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  #pricing .container .row .box2 .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  #pricing .container .row .box2 .price span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #pricing .container .row .box2 .box-img {
+    padding: 10% 17%;
+  }
+  #pricing .container .row .box2 .box-img img {
+    width: 100%;
+  }
+  #pricing .container .row .box2 ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  #pricing .container .row .box2 ul li {
+    padding-bottom: 10px;
+  }
+  #pricing .container .row .box2 a {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #4154f1;
+    text-decoration: none;
+  }
+  #pricing .container .row .box3 {
+    width: 100%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  #pricing .container .row .box3 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #ff901c;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #pricing .container .row .box3 .price {
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  #pricing .container .row .box3 .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  #pricing .container .row .box3 .price span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #pricing .container .row .box3 .box-img {
+    padding: 10% 17%;
+  }
+  #pricing .container .row .box3 .box-img img {
+    width: 100%;
+  }
+  #pricing .container .row .box3 ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  #pricing .container .row .box3 ul li {
+    padding-bottom: 10px;
+  }
+  #pricing .container .row .box3 a {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #4154f1;
+    text-decoration: none;
+  }
+  #pricing .container .row .box4 {
+    width: 100%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  #pricing .container .row .box4 h3 {
+    font-family: "Nunito", sans-serif;
+    color: #ff0071;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #pricing .container .row .box4 .price {
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  #pricing .container .row .box4 .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  #pricing .container .row .box4 .price span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #pricing .container .row .box4 .box-img {
+    padding: 10% 17%;
+  }
+  #pricing .container .row .box4 .box-img img {
+    width: 100%;
+  }
+  #pricing .container .row .box4 ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  #pricing .container .row .box4 ul li {
+    padding-bottom: 10px;
+  }
+  #pricing .container .row .box4 a {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #4154f1;
+    text-decoration: none;
+  }
+  #faq {
+    margin-top: 5%;
+    padding: 5% 0;
+  }
+  #faq .container .faq-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+  }
+  #faq .container .faq-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #faq .container .faq-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #faq .container .row > div {
+    width: 100%;
+  }
+  #blog {
+    margin-top: 5%;
+  }
+  #blog .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+  }
+  #blog .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #blog .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #contact {
+    margin-top: 10%;
+  }
+  #contact .container .contact-wrapper .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+  }
+  #contact .container .contact-wrapper .content h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  #contact .container .contact-wrapper .content p {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: #012970;
+  }
+  #contact .container .row .col-6 .row .info-box {
+    width: 100%;
+  }
+  footer .footer-newslatter .container {
+    max-width: 100%;
+    padding: 0 0%;
+  }
+  footer .footer-newslatter .container .content {
+    width: 100%;
+    padding: 0 8%;
+  }
+  footer .footer-newslatter .container div {
+    width: 100%;
+    padding: 0 14%;
+  }
+  footer .footer-newslatter .container div form {
+    padding: 0;
+  }
+  footer .footer-newslatter .container div form .email {
+    border: 0;
+    padding: 1% 21%;
+  }
+  footer .footer-top .container .row .col-5 {
+    width: 100%;
+  }
+  footer .footer-top .container .row .col-5 a {
+    line-height: 0;
+    text-decoration: none;
+  }
+  footer .footer-top .container .row .col-5 a img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  footer .footer-top .container .row .col-5 a span {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+  }
+  footer .footer-top .container .row .col-2 {
+    width: 50%;
+    margin-top: 7%;
+  }
+  footer .footer-top .container .row .col-3 {
+    width: 100%;
+    margin-top: 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}

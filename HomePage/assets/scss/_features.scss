@@ -1,0 +1,111 @@
+#features {
+    .container {
+        .first-feature-wrapper {
+            @include section-content;
+
+            .row {
+                .box-img {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .feature-boxs {
+                    padding: 3%;
+                    display: flex;
+
+                    .box {
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 2%;
+                        height: 25%;
+                        width: 45%;
+                        padding: 24px 17px;
+                        box-shadow: 0px 0 30px rgba(117, 120, 123, 0.08);
+
+                        i {
+                            line-height: 0;
+                            background: #ecf3ff;
+                            padding: 15px 3px;
+                            margin-right: 10px;
+                            font-size: 24px;
+                            border-radius: 3px;
+                        }
+
+                        h3 {
+                            font-family: $main-font;
+                            font-size: 18px;
+                            color: #012970;
+                            font-weight: 700;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .second-feature-wrapper {
+            padding: 8% 0 4% 0;
+
+            .title {
+                padding: 3% 0;
+
+                h3 {
+                    font-family: $main-font;
+                    color: $logo-color;
+                    font-weight: 700;
+                    font-size: 32px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+            }
+
+            .content {
+                .row {
+                    .col-4 {
+                        .content-image {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .col-8 {
+                        padding: 3% 0;
+                        .content-info {
+                            .row {
+                                .content-box {
+                                    display: flex;
+                                    justify-content: center;
+                                    padding: 2%;
+                                    i {
+                                        font-size: 34px;
+                                        color: #0245bc;
+                                        margin-right: 15px;
+                                    }
+
+                                    div {
+                                        h4 {
+                                            font-family: $main-font;
+                                            font-size: 20px;
+                                            font-weight: 700;
+                                            margin: 0 0 10px 0;
+                                            color: #012970;
+                                        }
+
+                                        p {
+                                            font-family: $main-font;
+                                            font-size: 15px;
+                                            color: #848484;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

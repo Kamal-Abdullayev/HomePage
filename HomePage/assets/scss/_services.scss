@@ -1,0 +1,45 @@
+#services {
+    .container {
+        .service-wrapper {
+            @include section-content;
+
+            .row {
+                padding: 2% 0;
+
+                .service-box {
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .box1 {
+                        @include service-box(#2db6fa,#dbf3fe);
+
+                    }
+
+                    .box2 {
+                        @include service-box(#f68c09,#fde3c4);
+                    }
+
+                    .box3 {
+                        @include service-box(#08da4e,#cffddf);
+                    }
+
+                    .box4 {
+                        @include service-box(#e9222c,#fef7f8);
+                    }
+
+                    .box5 {
+                        @include service-box(#b50edf,#f8e4fd);
+                        
+                    }
+
+                    .box6 {
+                        @include service-box(#f51f9c,#feecf7);
+                    }
+                }
+            }
+        }
+    }
+
+}

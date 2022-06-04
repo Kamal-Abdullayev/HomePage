@@ -1,0 +1,36 @@
+#values {
+    .container {
+        .values-wrapper {
+            padding: 0% 0% 5% 0;
+            @include section-content;
+
+            .row {
+                .box {
+                    padding: 30px;
+                    box-shadow: 0px 0px 5px rgb(184, 184, 184);
+                    text-align: center;
+                    height: 100%;
+
+                    .box-img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    h3 {
+                        font-family: $main-font;
+                        font-size: 24px;
+                        color: $logo-color;
+                        font-weight: 700;
+                        margin-bottom: 18px;
+                    }
+
+                    p {
+                        font-family: $main-font;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+#counts {
+    padding: 6% 0;
+
+    .count-box1 {
+        @include count-box($main-color);
+    }
+    .count-box2 {
+        @include count-box(#ee6c20);
+    }
+    .count-box3 {
+        @include count-box(#15be56);
+    }
+    .count-box4 {
+        @include count-box(#bb0852);
+    }
+}
